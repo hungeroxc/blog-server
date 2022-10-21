@@ -1,0 +1,74 @@
+{
+
+  "name": "blog-server",
+
+  "description": "",
+
+  "version": "1.0.0",
+
+  "main": ".eslintrc.js",
+
+  "scripts": {
+
+    "test": "echo \"Error: no test specified\" && exit 1",
+
+    "dev": "nodemon ./src/index.ts"
+
+  },
+
+  "repository": {
+
+    "type": "git",
+
+    "url": "git+https://github.com/hungeroxc/blog-server.git"
+
+  },
+
+  "author": "",
+
+  "license": "ISC",
+
+  "bugs": {
+
+    "url": "https://github.com/hungeroxc/blog-server/issues"
+
+  },
+
+  "homepage": "https://github.com/hungeroxc/blog-server#readme",
+
+  "devDependencies": {
+
+    "@types/koa": "^2.13.5",
+
+    "@types/koa-router": "^7.4.4",
+
+    "@types/koa2-cors": "^2.0.2",
+
+    "@typescript-eslint/eslint-plugin": "^5.40.1",
+
+    "@typescript-eslint/parser": "^5.40.1",
+
+    "eslint": "^8.25.0",
+
+    "prettier": "^2.7.1",
+
+    "ts-node": "^10.9.1",
+
+    "typescript": "^4.8.4"
+
+  },
+
+  "dependencies": {
+
+    "koa": "^2.13.4",
+
+    "koa-router": "^12.0.0",
+
+    "koa2-cors": "^2.0.6",
+
+    "typeorm": "^0.3.10"
+
+  }
+
+}
+
