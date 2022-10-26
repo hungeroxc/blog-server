@@ -1,4 +1,4 @@
-import Koa, { Context } from 'koa'
+import Koa from 'koa'
 import Router from 'koa-router'
 import cors from 'koa2-cors'
 import { DataSource } from 'typeorm'
